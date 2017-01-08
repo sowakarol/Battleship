@@ -1,0 +1,114 @@
+﻿<Window x:Class="Battleship.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battleship"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="430" Width="511.409">
+    <Grid Margin="0,0,0,-133">
+        <Button x:Name="button1_Copy00" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click"/>
+        <Button x:Name="button1_Copy0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,0,0,0"/>
+        <Button x:Name="button1_Copy1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,0,0,0"/>
+        <Button x:Name="button1_Copy2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,0,0,0"/>
+        <Button x:Name="button1_Copy3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,0,0,0"/>
+        <Button x:Name="button1_Copy4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,0,0,0"/>
+        <Button x:Name="button1_Copy5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,0,0,0"/>
+        <Button x:Name="button1_Copy6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,0,0,0"/>
+        <Button x:Name="button1_Copy7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,0,0,0"/>
+        <Button x:Name="button1_Copy8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,0,0,0"/>
+        <Button x:Name="button1_Copy9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="0,40,0,0"/>
+        <Button x:Name="button1_Copy10" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,40,0,0"/>
+        <Button x:Name="button1_Copy11" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,40,0,0"/>
+        <Button x:Name="button1_Copy12" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,40,0,0"/>
+        <Button x:Name="button1_Copy13" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,40,0,0"/>
+        <Button x:Name="button1_Copy14" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,40,0,0"/>
+        <Button x:Name="button1_Copy15" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,40,0,0"/>
+        <Button x:Name="button1_Copy16" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,40,0,0"/>
+        <Button x:Name="button1_Copy17" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,40,0,0"/>
+        <Button x:Name="button1_Copy18" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,40,0,0"/>
+        <Button x:Name="button1_Copy19" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="0,80,0,0"/>
+        <Button x:Name="button1_Copy20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,80,0,0"/>
+        <Button x:Name="button1_Copy21" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,80,0,0"/>
+        <Button x:Name="button1_Copy22" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,80,0,0"/>
+        <Button x:Name="button1_Copy23" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,80,0,0"/>
+        <Button x:Name="button1_Copy24" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,80,0,0"/>
+        <Button x:Name="button1_Copy25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,80,0,0"/>
+        <Button x:Name="button1_Copy26" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,80,0,0"/>
+        <Button x:Name="button1_Copy27" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,80,0,0"/>
+        <Button x:Name="button1_Copy28" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,80,0,0"/>
+        <Button x:Name="button1_Copy29" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="0,120,0,0"/>
+        <Button x:Name="button1_Copy30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,120,0,0"/>
+        <Button x:Name="button1_Copy31" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,120,0,0"/>
+        <Button x:Name="button1_Copy32" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,120,0,0"/>
+        <Button x:Name="button1_Copy33" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,120,0,0"/>
+        <Button x:Name="button1_Copy34" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,120,0,0"/>
+        <Button x:Name="button1_Copy35" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,120,0,0"/>
+        <Button x:Name="button1_Copy36" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,120,0,0"/>
+        <Button x:Name="button1_Copy37" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,120,0,0"/>
+        <Button x:Name="button1_Copy38" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,120,0,0"/>
+        <Button x:Name="button1_Copy39" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="0,160,0,0"/>
+        <Button x:Name="button1_Copy40" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,160,0,0"/>
+        <Button x:Name="button1_Copy41" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,160,0,0"/>
+        <Button x:Name="button1_Copy42" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,160,0,0"/>
+        <Button x:Name="button1_Copy43" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,160,0,0"/>
+        <Button x:Name="button1_Copy44" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,160,0,0"/>
+        <Button x:Name="button1_Copy45" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,160,0,0"/>
+        <Button x:Name="button1_Copy46" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,160,0,0"/>
+        <Button x:Name="button1_Copy47" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,160,0,0"/>
+        <Button x:Name="button1_Copy48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,160,0,0"/>
+        <Button x:Name="button1_Copy49" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="0,200,0,0"/>
+        <Button x:Name="button1_Copy50" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,200,0,0"/>
+        <Button x:Name="button1_Copy51" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,200,0,0"/>
+        <Button x:Name="button1_Copy52" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,200,0,0"/>
+        <Button x:Name="button1_Copy53" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,200,0,0"/>
+        <Button x:Name="button1_Copy54" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,200,0,0"/>
+        <Button x:Name="button1_Copy55" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,200,0,0"/>
+        <Button x:Name="button1_Copy56" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,200,0,0"/>
+        <Button x:Name="button1_Copy57" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,200,0,0"/>
+        <Button x:Name="button1_Copy58" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,200,0,0"/>
+        <Button x:Name="button1_Copy59" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="0,240,0,0"/>
+        <Button x:Name="button1_Copy60" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,240,0,0"/>
+        <Button x:Name="button1_Copy61" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,240,0,0"/>
+        <Button x:Name="button1_Copy62" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,240,0,0"/>
+        <Button x:Name="button1_Copy63" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,240,0,0"/>
+        <Button x:Name="button1_Copy64" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,240,0,0"/>
+        <Button x:Name="button1_Copy65" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,240,0,0"/>
+        <Button x:Name="button1_Copy66" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,240,0,0"/>
+        <Button x:Name="button1_Copy67" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,240,0,0"/>
+        <Button x:Name="button1_Copy68" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,240,0,0"/>
+        <Button x:Name="button1_Copy69" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="0,280,0,0"/>
+        <Button x:Name="button1_Copy70" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,280,0,0"/>
+        <Button x:Name="button1_Copy71" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,280,0,0"/>
+        <Button x:Name="button1_Copy72" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,280,0,0"/>
+        <Button x:Name="button1_Copy73" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,280,0,0"/>
+        <Button x:Name="button1_Copy74" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,280,0,0"/>
+        <Button x:Name="button1_Copy75" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,280,0,0"/>
+        <Button x:Name="button1_Copy76" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,280,0,0"/>
+        <Button x:Name="button1_Copy77" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,280,0,0"/>
+        <Button x:Name="button1_Copy78" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,280,0,0"/>
+        <Button x:Name="button1_Copy79" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="0,320,0,0"/>
+        <Button x:Name="button1_Copy80" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,320,0,0"/>
+        <Button x:Name="button1_Copy81" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,320,0,0"/>
+        <Button x:Name="button1_Copy82" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,320,0,0"/>
+        <Button x:Name="button1_Copy83" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,320,0,0"/>
+        <Button x:Name="button1_Copy84" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,320,0,0"/>
+        <Button x:Name="button1_Copy85" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,320,0,0"/>
+        <Button x:Name="button1_Copy86" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,320,0,0"/>
+        <Button x:Name="button1_Copy87" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,320,0,0"/>
+        <Button x:Name="button1_Copy88" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,320,0,0"/>
+        <Button x:Name="button1_Copy89" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="0,360,0,0"/>
+        <Button x:Name="button1_Copy90" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="40,360,0,0"/>
+        <Button x:Name="button1_Copy91" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="80,360,0,0"/>
+        <Button x:Name="button1_Copy92" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="120,360,0,0"/>
+        <Button x:Name="button1_Copy93" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="160,360,0,0"/>
+        <Button x:Name="button1_Copy94" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="200,360,0,0"/>
+        <Button x:Name="button1_Copy95" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="240,360,0,0"/>
+        <Button x:Name="button1_Copy96" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,360,0,0"/>
+        <Button x:Name="button1_Copy97" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,360,0,0"/>
+        <Button x:Name="button1_Copy98" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,360,0,0"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="405,10,0,0" TextWrapping="Wrap" Text="Witaj w grze statki! Twój ruch! Strzel w pole" VerticalAlignment="Top" Height="91" Width="88"/>
+
+
+    </Grid>
+</Window>
