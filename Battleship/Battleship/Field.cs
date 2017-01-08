@@ -11,7 +11,7 @@ namespace Battleship
         State currentState;
         int rowNumber;
         int columnNumber;
-        bool shooted; //zmienna sprawdzajaca czy pole zostale juz ustrzelone kiedys - wczesniej robiłem isEnabled=false; w MainWindows.xaml.cs ale nie było koloru
+        bool shooted; //zmienna sprawdzajaca czy pole zostale juz ustrzelone kiedys - wczesniej robiłem isEnabled=false; w MainWindows.xaml.cs ale nie było koloru(był kolor tła)
 
         public Field(State state, int rowNumber, int columnNumber)
         {

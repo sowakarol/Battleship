@@ -58,7 +58,6 @@
     <Compile Include="Field.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GameInterface.cs" />
-    <Compile Include="PlayerInterface.cs" />
     <Compile Include="Ship.cs" />
     <Compile Include="Shot.cs" />
     <Compile Include="State.cs" />
