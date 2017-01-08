@@ -20,14 +20,22 @@ namespace Battleship
     /// </summary>
     public partial class MainWindow : Window
     {
+        Game game = new Game(5, 5);
 
         public MainWindow()
         {
             InitializeComponent();
+            game.setShips();
 
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            System.Diagnostics.Debug.WriteLine(button.Name);
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
         {
 
         }
