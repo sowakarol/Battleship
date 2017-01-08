@@ -13,7 +13,10 @@ namespace Battleship
 
         public Shot(String name)
         {
+            System.Diagnostics.Debug.WriteLine(name);
             String tmp = name.Replace("button1_Copy", "");
+            System.Diagnostics.Debug.WriteLine(tmp);
+
             if (tmp == "00")
             {
                 ColumnNumber = 0;
@@ -22,9 +25,12 @@ namespace Battleship
             else {
                 int tmp2 = Int32.Parse(tmp);
                 tmp2++;
-                int tens = tmp2 & 10; //zmienna przechowująca ile dziesiątek się mieści 
-                tmp2 = tmp2 - tens;
-                ColumnNumber = tmp2;
+                int remainder = tmp2 % 10; //zmienna przechowująca ile jedności się mieści 
+                int tens = (tmp2 - remainder)/10;
+                System.Diagnostics.Debug.WriteLine(tmp2);
+                System.Diagnostics.Debug.WriteLine(tens);
+
+                ColumnNumber = remainder;
                 RowNumber = tens;
             }
         }
@@ -55,8 +61,15 @@ namespace Battleship
             }
         }
 
-        public int hit(Field field) // zwraca 1 jeśli strzelił w statek, 0 jeśli strzelił w wodę
+        public int hit(Field field) // zwraca 1 jeśli strzelił w statek, 0 jeśli strzelił w wodę, -1 jeśli strzelono
         {
+            if(field.Shooted == true)
+            {
+                return -1;
+            }
+
+
+            field.Shooted = true;
             if (field.CurrentState == State.SHIP_UNDAMAGED)
             {
                 field.CurrentState = State.SHIP_DAMAGED;

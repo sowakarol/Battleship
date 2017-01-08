@@ -20,24 +20,43 @@ namespace Battleship
     /// </summary>
     public partial class MainWindow : Window
     {
-        Game game = new Game(5, 5);
+        Game game = new Game(5, 5); //INICJALIZACJA GRY MOŻNA ZMIENIC DLUGOSC STATKOW I ICH ILOSC
 
         public MainWindow()
         {
             InitializeComponent();
+
             game.setShips();
+            System.Diagnostics.Debug.WriteLine("Udało się");
+
 
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            System.Diagnostics.Debug.WriteLine(button.Name);
+            int whatHappened = game.handleClient(button.Name);
+
+            switch (whatHappened)
+            {
+                case 1:
+                    textBlock.Text = "Brawo - trafiłeś!! Strzelaj dalej";
+                    button.Background = Brushes.Green;
+                    break;
+                case 0:
+                    textBlock.Text = "Pudło [*], spróbuj jeszcze raz";
+                    button.Background = Brushes.Orange;
+                    break;
+                case -1:
+                    break;
+            }
+            if (game.isOver())
+            {
+                textBlock.Text = "GRATKI WYGRAŁEŚ W: " + game.RoundNumber;
+
+            }
+
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

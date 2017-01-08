@@ -11,12 +11,14 @@ namespace Battleship
         State currentState;
         int rowNumber;
         int columnNumber;
+        bool shooted;
 
         public Field(State state, int rowNumber, int columnNumber)
         {
             currentState = state;
             this.RowNumber = rowNumber;
             this.ColumnNumber = columnNumber;
+            Shooted = false;
         }
 
         internal State CurrentState
@@ -55,6 +57,19 @@ namespace Battleship
             set
             {
                 rowNumber = value;
+            }
+        }
+
+        public bool Shooted
+        {
+            get
+            {
+                return shooted;
+            }
+
+            set
+            {
+                shooted = value;
             }
         }
     }
