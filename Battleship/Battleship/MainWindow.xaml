@@ -107,7 +107,7 @@
         <Button x:Name="button1_Copy96" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" RenderTransformOrigin="1.646,0.872" Margin="280,360,0,0"/>
         <Button x:Name="button1_Copy97" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="320,360,0,0"/>
         <Button x:Name="button1_Copy98" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" Background="#FF2D83EC" Click="button1_Click" Margin="360,360,0,0"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="405,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="91" Width="88"><Run Text="Witaj w grze statki! "/><Run Text="Wciśnij przycisk na dole !!1!"/></TextBlock>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="405,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="91" Width="88"><Run Text="Witaj w grze statki! "/><Run Text="Strzelaj!!1!"/></TextBlock>
 
 
     </Grid>
