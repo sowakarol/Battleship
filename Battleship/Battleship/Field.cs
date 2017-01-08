@@ -9,10 +9,14 @@ namespace Battleship
     class Field
     {
         State currentState;
+        int rowNumber;
+        int columnNumber;
 
-        public Field(State state)
+        public Field(State state, int rowNumber, int columnNumber)
         {
             currentState = state;
+            this.RowNumber = rowNumber;
+            this.ColumnNumber = columnNumber;
         }
 
         internal State CurrentState
@@ -25,6 +29,32 @@ namespace Battleship
             set
             {
                 currentState = value;
+            }
+        }
+
+        public int ColumnNumber
+        {
+            get
+            {
+                return columnNumber;
+            }
+
+            set
+            {
+                columnNumber = value;
+            }
+        }
+
+        public int RowNumber
+        {
+            get
+            {
+                return rowNumber;
+            }
+
+            set
+            {
+                rowNumber = value;
             }
         }
     }

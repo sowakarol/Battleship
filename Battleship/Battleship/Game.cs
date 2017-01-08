@@ -15,6 +15,19 @@ namespace Battleship
 
         private List<Ship> ships;
 
+        public int RoundNumber
+        {
+            get
+            {
+                return roundNumber;
+            }
+
+            set
+            {
+                roundNumber = value;
+            }
+        }
+
         public Game(int shipsNumber, int shipsLength)
         {
             this.shipsLength = shipsLength;
@@ -23,7 +36,7 @@ namespace Battleship
             {
                 for(int j = 0; j < 10; j++)
                 {
-                    fields[i, j] = new Field(State.WATER);
+                    fields[i, j] = new Field(State.WATER,i, j);
                 }
             }
             
@@ -34,11 +47,11 @@ namespace Battleship
 
         public int handleClient(String name)
         {
-            roundNumber++;
+            RoundNumber++;
             Shot currentShot = new Shot(name);
 
 
-            return currentShot.hit(fields[]);
+            return currentShot.hit(fields[currentShot.RowNumber,currentShot.ColumnNumber]);
 
         }
 
@@ -57,10 +70,41 @@ namespace Battleship
 
         public void setShips()
         {
-            throw new NotImplementedException();
+            Random rd = new Random();
+
+            
         }
 
+        private bool otherShipsContain(Field field, List<Ship> otherShips)
+        {
+            foreach (Ship ship in otherShips)
+            {
+                foreach(Field otherShipField in ship.Fields)
+                {
+                    if(field.ColumnNumber == otherShipField.ColumnNumber && field.RowNumber == otherShipField.RowNumber)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
 
+        private bool outOfBoundary(int rowNumber, int columnNumber)
+        {
+            if (rowNumber < 0 || rowNumber > 10 || columnNumber < 0 || columnNumber > 10) return true;
+            return false;
+        }
+
+        private List<Ship> otherShips(List<Ship> ships,Ship excluded)
+        {
+            List<Ship> ret = new List<Ship>;
+            foreach(Ship ship in ships)
+            {
+                if (ship != excluded) ret.Add(ship);
+            }
+            return ret;
+        }
 
     }
 }

@@ -16,19 +16,45 @@ namespace Battleship
             String tmp = name.Replace("button1_Copy", "");
             if (tmp == "00")
             {
-                columnNumber = 0;
-                rowNumber = 0;
+                ColumnNumber = 0;
+                RowNumber = 0;
             }
             else {
                 int tmp2 = Int32.Parse(tmp);
                 tmp2++;
                 int tens = tmp2 & 10; //zmienna przechowująca ile dziesiątek się mieści 
                 tmp2 = tmp2 - tens;
-                columnNumber = tmp2;
-                rowNumber = tens;
+                ColumnNumber = tmp2;
+                RowNumber = tens;
             }
         }
-    
+
+        public int ColumnNumber
+        {
+            get
+            {
+                return columnNumber;
+            }
+
+            set
+            {
+                columnNumber = value;
+            }
+        }
+
+        public int RowNumber
+        {
+            get
+            {
+                return rowNumber;
+            }
+
+            set
+            {
+                rowNumber = value;
+            }
+        }
+
         public int hit(Field field) // zwraca 1 jeśli strzelił w statek, 0 jeśli strzelił w wodę
         {
             if (field.CurrentState == State.SHIP_UNDAMAGED)
